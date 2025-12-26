@@ -10,7 +10,7 @@ const http=require("http");
 const server=http.createServer((req,res)=>{
     if(req.url==="/"){
         res.setHeader("Content-Type","text/html");
-        res.write("<h1>i am pratik!!!</h1>");
+        res.write("<h1>i am pratik!</h1>");
         res.end();
     }
 
