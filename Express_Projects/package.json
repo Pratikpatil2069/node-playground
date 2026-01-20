@@ -7,9 +7,9 @@
   "type":"module",
   "main": "Express.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"node --env-file=.env --watch EnvironmentVariables.js"
-  },
+  "start": "node RouteParameter.js"
+},
+
   "dependencies": {
     "express": "^5.2.1"
   }
